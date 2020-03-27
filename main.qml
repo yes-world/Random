@@ -10,14 +10,8 @@ Window {
     title: qsTr("Генератор")
     Column {
         anchors.centerIn: parent
-        Item {
-            width: 250
-            height: 250
-            Text {
-                anchors.centerIn: parent
-                text: rand.number
-                font.pointSize: 120
-            }
+        CubeForm {
+            status: rand.number
         }
         Item {
             width: 250
