@@ -22,6 +22,5 @@ void Generator::setNumber(int number)
 
 void Generator::generate()
 {
-    srand(time(0));
     setNumber(1 + rand() % 6);
 }
